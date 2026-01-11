@@ -61,7 +61,7 @@ export default function Main() {
 
                 {loading && (
                     <div className="loading">
-                        Nida is thinking wait for a few seonds ...
+                        cheff is thinking wait for a few seonds ...
                     </div>
                 )}
 
