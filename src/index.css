@@ -157,3 +157,8 @@ ul.ingredients-list > li {
 .remove-btn:hover {
     color: #a34f38;
 }
+.warning-text {
+  color: #D17557;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}

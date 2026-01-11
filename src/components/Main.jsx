@@ -41,7 +41,13 @@ export default function Main() {
                     <button className="btn-add-ingredient">
                         Add ingredient
                     </button>
+
                 </form>
+                {ingredients.length < 4 && (
+                    <p className="warning-text">
+                        Please add at least 4 ingredients to generate a recipe.
+                    </p>
+                )}
                 {ingredients.length > 0 &&
                     <IngredientsList
                         ingredients={ingredients}
@@ -64,7 +70,7 @@ export default function Main() {
                 )}
 
             </main>
-            
+
         </>
     )
 }
